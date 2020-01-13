@@ -4,7 +4,7 @@ AFIP public API helper
 ## How to use it
 
 ```ruby
-require 'afip-public'
+require 'afip_public'
 
 padron = AfipPublic::Padron.new
 
@@ -58,7 +58,3 @@ From AFIP documentation:
 /parametros/v1/provincias
 
 /parametros/v2/dependencias
-
-
-
-

@@ -1,4 +1,4 @@
-require 'afip-public/version'
+require 'afip_public/version'
 require 'httparty'
 
 module AfipPublic
@@ -27,7 +27,7 @@ class AfipPublicService
 
 end
 
-class Padron < AfipPublicService 
+class Padron < AfipPublicService
 
   def base_path
     "/sr-padron/"
