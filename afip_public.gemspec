@@ -1,18 +1,18 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'afip-public/version'
+require 'afip_public/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'afip-public'
+  s.name        = 'afip_public'
   s.version     =  AfipPublic::VERSION
   s.date        = '2017-06-12'
   s.summary     = "A simple helper for AFIP public API!"
   s.description = "A simple helper for AFIP public API!"
   s.authors     = ["gipsh"]
   s.email       = 'gipsh@github.com'
-  s.files       = ["lib/afip-public.rb"]
+  s.files       = ["lib/afip_public.rb"]
   s.homepage    =
-    'http://rubygems.org/gems/afip-public'
+    'http://rubygems.org/gems/afip_public'
   s.license       = 'MIT'
   s.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   s.bindir        = "exe"
